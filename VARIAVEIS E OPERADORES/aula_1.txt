@@ -1,0 +1,21 @@
+
+
+DESAFIO: Faça um programa para calcular o valor de uma viagem.
+
+Você terá 3 variáveis. Sendo elas:
+ 1 - Preço do combustível;
+ 2 - Gasto médio de combustível do carro por KM;
+ 3 - Distância em KM da viagem;
+
+Imprima no console o valor que será gasto para realizar esta viagem.
+
+
+ARREDONDANDO VALORES!
+
+Foi utilizado o método toFixed para arredondar o valor, que transforma o valor inicialmente em uma string, e após isso, passamos em um parâmetro o número de casas decimais que desejamos.
+Exemplo: 
+
+valor_gasto = 79.34999999;
+console.log(valor_gasto.toFixed(2))
+
+RETORNA 79.35

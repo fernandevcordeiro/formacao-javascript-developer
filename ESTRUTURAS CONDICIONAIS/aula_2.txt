@@ -1,0 +1,48 @@
+Condicionais testam se uma determinada condição é verdadeira ou falsa.
+
+10> 5 (VERDADEIRO)
+
+#RESTO DA DIVISAO
+O símbolo para avaliar o resto de uma divisão é o %, por exemplo, para avaliar se um número é par, precisamos inicialmente saber se existe o resto da divisão qunado ele é dividido por 2. Ex:
+
+numeroPar = numero % 2 === 0; //É par!
+
+Para valores booleanos, é possível também negar a variável, assim, nesse contexto, podemos descobrir e imprimir no terminal valores ímpares:
+
+if(numeroPar){
+    console.log("O número é par!");
+}
+if (!numeroPar){
+    console.log("O valor é ímpar!");
+}
+
+Estrutura básica para testagem:
+
+
+if (parâmetro1){
+
+} else if (parâmetro2){
+
+} else if (parâmetro3){
+
+} else if (parâmetro4){
+
+} else{
+    
+}
+
+
+
+DESAFIO: Faça um programa para calcular o valor de uma viagem com base no tipo de combustível, etanol ou gasolina.
+
+Você terá 5 variáveis. Sendo elas:
+
+ 1 - Preço do Etanol;
+ 2 - preço da gasolina;
+ 3 - O tipo de combustível que está no seu carro;
+ 4 - Gasto médio de combustível do carro por KM;
+ 5 - Distância em KM da viagem;
+
+
+
+Imprima no console o valor que será gasto para realizar esta viagem.
